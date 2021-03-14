@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "amplifyappe95c1387_identitypool_e95c1387",
+    "identityPoolName": "amplifyappcf6eeebc_identitypool_cf6eeebc",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplife95c1387",
-    "userPoolName": "amplifyappe95c1387_userpool_e95c1387",
+    "resourceNameTruncated": "amplifcf6eeebc",
+    "userPoolName": "amplifyappcf6eeebc_userpool_cf6eeebc",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "amplife95c1387_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "amplifcf6eeebc_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "e95c1387",
-    "resourceName": "amplifyappe95c1387",
+    "sharedId": "cf6eeebc",
+    "resourceName": "amplifyappcf6eeebc",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -46,10 +46,8 @@
         ]
     },
     "useDefault": "default",
-    "hostedUI": true,
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
-    "dependsOn": [],
-    "authProviders": []
+    "dependsOn": []
 }
